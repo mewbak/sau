@@ -1,5 +1,11 @@
 // Credits go to A. Afletdinov, author of Free Heroes2 Engine
 
+//note that 82M are raw audio files in format of 8-bit unsigned mono 22050Hz.
+//so they can be converted to wav using the following code
+// for i in *.82M; do mv "$i" "$i.raw"; done
+// for i in *.raw; do sox -r 22050 -e unsigned -b 8 -c 1 "$i" "$(echo "$i" | sed 's/.82M.raw/.wav/')"; done
+
+
 #include "common.h"
 
 static const u1 Pal[] = {
