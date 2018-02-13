@@ -1,0 +1,6 @@
+An API for playing a game with sprites, models and sounds from any other game. A game engine pass a request for 3d model or sfx to this API, and the library behind API returns resource from user specified provided archive, either free or taken from commercial game user owns. That way users could play street fighter with mortal kombat characters and vice-versa.
+
+Should also be great for game prototyping, so game developers could get a good looking stereotypic characters preset, without wasting time browsing OGA
+
+
+--Nikita Sadkov

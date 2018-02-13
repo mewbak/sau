@@ -1,0 +1,7 @@
+To load a 32-bit DOS extended executable into a disassembler
+1. open such executable in hex-editor, and look for the next MZ (it will be followed by relocation table with a lot of zeroes)
+2. delete everything before this point
+3. save executable
+4. open it in disassembler as usual.
+
+otherwise you will see only a lot of DOS extender related crud.

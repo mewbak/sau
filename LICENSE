@@ -1,0 +1,3 @@
+As a sign of good will, SAU is now in Public Domain (Creative Commons Zero). --Nikita Sadkov
+
+This doesn't include uthash.h, zlib, bzip2, libpng, libmpq and libstorm. These have their own licenses and included here for the sake of convinience.
